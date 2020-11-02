@@ -4,27 +4,7 @@ public class main {
 
     public static void main(String[] args) {
 
-        if (args.length > 0) {
-            for (String s : args) {
-                if (s == "--nogui") {
-                    main.noGui();
-                } else {
 
-                    Application.launch(guiApp.class, args);
-                }
-
-
-            }
-
-
-        }
-
-        Application.launch(guiApp.class,args);
-
-
-    }
-
-    private static void noGui() {
         madLib Game = new madLib();
         proNoun proNoun1 = new proNoun();
         String firstLine = Game.firstList(proNoun1);

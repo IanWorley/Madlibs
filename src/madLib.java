@@ -1,5 +1,8 @@
 public class madLib {
 
+    /**
+     * Generates madLib object for the following methods creates the madlib.
+     */
 public madLib(){
 
 }
@@ -18,7 +21,7 @@ public String thirdLine(noun noun){
            return s;
 }
 public String forthLine(verb verb, adjective adjective , adverb adverb){
-    verb.addING();
+    verb.addIng();
 String s = "the events " + verb.givePhrase() + " but the game itself and the "+ adjective.givePhrase() + " Ti hosted is tournament with the " + adverb.givePhrase() + " prizepool." + "\n";
     return s;
 }

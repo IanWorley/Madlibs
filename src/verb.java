@@ -11,7 +11,7 @@ public verb(){
         super();
 }
 
-    public void addING(){
+    public void addIng(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Do you want to add ing to your verb. y|N");
         String choice = sc.nextLine();
@@ -19,7 +19,7 @@ public verb(){
         wantsING = choice.equals(String.valueOf('Y')) || choice.equals(String.valueOf('y'));
 
         if (wantsING) {
-            pharse = pharse.concat("ing");
+            phrase = phrase.concat("ing");
         }
 
 

@@ -1,34 +1,38 @@
 import java.util.Scanner;
 
 public class phrase {
-    String pharse;
-   static Boolean isGui;
+    String phrase;
     public phrase(String phrase){
-       this.pharse = phrase;
+       this.phrase = phrase;
     }
 
-    public phrase(){
+    /**
+     * The Constructor is use to make a phrase and also gain input from terminal
+     */
+    public phrase() {
         String[] typeOfSpeech = getClass().toString().split(" ");
-
-        if (!phrase.isGui) {
-            System.out.println("Please type in a " + typeOfSpeech[1] + ".");
-            Scanner readText = new Scanner(System.in);
-            this.pharse = readText.nextLine();
-        }
+        System.out.println("Please type in a " + typeOfSpeech[1] + ".");
+        Scanner readText = new Scanner(System.in);
+        this.phrase = readText.nextLine();
     }
 
-    public String giveQuestion(){
-        String[] typeOfSpeech = getClass().toString().split(" ");
-        return "Please type in a " + typeOfSpeech[1] + ".";
-    }
-
+    /**
+     * This gives back a string.
+     * @return phrase (String)
+     */
     public String givePhrase(){
 
-        return pharse;
+        return phrase;
     }
 
-    public void setPharse(String pharse) {
-        this.pharse = pharse;
+
+    /**
+     * This is use to debug
+     * @param phrase(string)
+     *
+     */
+    public void setPhrase(String phrase) {
+        this.phrase = phrase;
     }
 }
 
