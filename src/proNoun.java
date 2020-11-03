@@ -2,7 +2,7 @@ public class proNoun extends noun{
 
     /**
      *  This constructor is named proNouns all important methods are in the .
-     * @class
+     *
      */
 
 
@@ -12,7 +12,9 @@ public proNoun(){
 
     /**
      * @param phrase (String)
-     * @see<a href=""></a>
+     * This sets the phrase to what ever you want.
+     * @see noun
+     * @see phrase
      */
     public proNoun(String phrase) {
         super(phrase);

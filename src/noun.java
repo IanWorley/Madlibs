@@ -6,6 +6,9 @@ public class noun extends phrase {
     }
 
 
+    /**
+     *
+     */
     public noun() {
         super();
     }
