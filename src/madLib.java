@@ -12,7 +12,7 @@ public madLib(){
 
     /**
      * First line of the madLib.
-     * @param proNoun
+     * @param proNoun proNoun class
      * @return String
      */
 public  String firstLine(@NotNull proNoun proNoun){
@@ -22,7 +22,7 @@ public  String firstLine(@NotNull proNoun proNoun){
 
     /**
      * Second Line of the madlib.
-     * @param proNoun
+     * @param proNoun pronNoun class
      * @return String
      */
 public String secLine(@NotNull proNoun proNoun){
@@ -31,7 +31,7 @@ public String secLine(@NotNull proNoun proNoun){
 
     /**
      * This is the third line of madline.
-     * @param noun
+     * @param noun noun class
      * @return String
      */
 public String thirdLine(@NotNull noun noun){
@@ -40,10 +40,10 @@ public String thirdLine(@NotNull noun noun){
 
 
     /**
-     *  This is the forth line of madline.
-     * @param verb
-     * @param adjective
-     * @param  adverb
+     *  This is the forth line of madlib.
+     * @param verb verb class
+     * @param adjective adjective class
+     * @param  adverb adverb class
      * @return String
      */
 public String forthLine(@NotNull verb verb, @NotNull adjective adjective, @NotNull proNoun proNoun , @NotNull adverb adverb){

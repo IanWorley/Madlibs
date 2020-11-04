@@ -1,16 +1,24 @@
 public class adjective extends noun {
     /**
-     * @param phrase (String).
+     * This creates a Pronoun and sets the word for the pronoun.
+     * Takes methods from both noun and baseSpeech.
+     * Overall most of the important stuff happens in the baseSpeech class.
+     * @param word (String) Sets the word to be used in the class.
+     * @see noun
+     * @see baseSpeech
+     *
      */
-    public adjective(String phrase) {
-        super(phrase);
+    public adjective(String word) {
+        super(word);
     }
 
     /**
-     * Creates a adjective object.
-     * For more information on how this class works look at noun and phrase for methods.
-     * @see noun#noun()
-     * @see phrase#phrase()
+     * This asks the users for a adjective.
+     * Takes methods from both noun and baseSpeech.
+     * Overall most of the important stuff happens in the baseSpeech class.
+     * Super call the extend class noun.
+     * @see noun
+     * @see baseSpeech
      *
      */
     public adjective() {

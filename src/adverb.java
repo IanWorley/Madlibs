@@ -10,9 +10,9 @@ public class adverb extends verb {
      *Creates a adverb object.
      *For more information on how this class works look at verb and phrase for methods.
      * @see verb
-     * @see phrase
+     * @see baseSpeech
      */
     public adverb(){
-        super();
+        super(); // super call the extend class verb.
     }
 }

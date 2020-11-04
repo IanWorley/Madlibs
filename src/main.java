@@ -1,4 +1,8 @@
-
+/**
+ * @author Ian Worley
+ * A madLib app for school project
+ *     Copyright (C) 2020  Ian Worley
+ */
 public class main {
 
     public static void main(String[] args) {
