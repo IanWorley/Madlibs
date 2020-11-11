@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"<Unnamed>","l":"adjective"},{"p":"<Unnamed>","l":"adverb"},{"l":"All Classes","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"baseSpeech"},{"p":"<Unnamed>","l":"madLib"},{"p":"<Unnamed>","l":"main"},{"p":"<Unnamed>","l":"noun"},{"p":"<Unnamed>","l":"proNoun"},{"p":"<Unnamed>","l":"verb"}];updateSearchResults();

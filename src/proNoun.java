@@ -27,5 +27,12 @@ public proNoun(){
         super(word); // super call the extend class noun.
     }
 
+    /**
+     *
+     * @param word String Word.
+     * @param type String I.E. Person place or thing
+     */
+    public proNoun(String word, String type){super(word,type);}
+
 }
 

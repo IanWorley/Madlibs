@@ -1,18 +1,25 @@
 public class adverb extends verb {
     /**
-     * @param phrase is use to generate a string that gets pass down to the class super class pram.
+     * This creates a adverb and sets the word for the adverb.
+     * Takes methods from both verb and baseSpeech.
+     * Overall most of the important stuff happens in the baseSpeech class.
+     * Super calls the extend class verb.
+     * @see noun
+     * @see baseSpeech
+     *
      */
-    public adverb(String phrase) {
-        super(phrase);
+    public adverb(String type) {
+        super(type); // super calls the extend class verb.
     }
 
     /**
-     *Creates a adverb object.
-     *For more information on how this class works look at verb and phrase for methods.
-     * @see verb
+     * This asks the users for a verb.
+     * Takes methods from both verb and baseSpeech.
+     * Overall most of the important stuff happens in the baseSpeech class.
+     * super calls the extend class noun.
      * @see baseSpeech
      */
     public adverb(){
-        super(); // super call the extend class verb.
+        super(); // super calls the extend class verb.
     }
 }

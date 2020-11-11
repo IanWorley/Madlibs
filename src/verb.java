@@ -5,20 +5,20 @@ public boolean wantsING;
 
     /**
      * This creates a verb and sets the word for the verb.
-     * Takes methods from both verb and baseSpeech.
+     * Takes methods from baseSpeech.
      * Overall most of the important stuff happens in the baseSpeech class.
      * @param word (String) Sets the word to be used in the class.
      * @see baseSpeech
      */
     public verb(String word) {
-        super(word); // super call the extend class basicSpeech
+        super(word); // super calls the extend class basicSpeech
     }
 
     /**
      * This asks the users for a verb.
-     * Takes methods from both verb and baseSpeech.
+     * Takes methods from  baseSpeech.
      * Overall most of the important stuff happens in the baseSpeech class.
-     * super call the extend class noun.
+     * super calls the extend class noun.
      * @see baseSpeech
      */
 public verb(){
@@ -26,7 +26,7 @@ public verb(){
 }
 
     /**
-     * Adds an ing at the end of verb.
+     * Adds an -ing at the end of verb.
      */
     public void addIng(){
         Scanner sc = new Scanner(System.in);
