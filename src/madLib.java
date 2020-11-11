@@ -12,29 +12,29 @@ public madLib(){
 
     /**
      * First line of the madLib.
-     * @param proNoun proNoun class
+     * @param noun noun class
      * @return String
      */
-public  String firstLine(@NotNull proNoun proNoun){
-    return "You clearly haven't even played " + proNoun.givePhrase() + "\n";
+public  String firstLine( noun noun){
+    return "You clearly haven't even played " + noun.givePhrase() + "\n";
 }
 
 
     /**
      * Second Line of the madlib.
-     * @param proNoun pronNoun class
+     * @param noun class
      * @return String
      */
-public String secLine(@NotNull proNoun proNoun){
-    return "Then you clearly haven't even played " + proNoun.givePhrase() + "\n";
+public String secLine(noun noun){
+    return "Then you clearly haven't even played " + noun.givePhrase() + "\n";
 }
 
     /**
      * This is the third line of madline.
-     * @param noun noun class
+     * @param noun class
      * @return String
      */
-public String thirdLine(@NotNull noun noun){
+public String thirdLine(noun noun){
     return "It's mechanism,the "+ noun.givePhrase()  + " and that every second matters is what makes the game just a, masterpiece" + "\n";
 }
 
@@ -46,9 +46,9 @@ public String thirdLine(@NotNull noun noun){
      * @param  adverb adverb class
      * @return String
      */
-public String forthLine(@NotNull verb verb, @NotNull adjective adjective, @NotNull proNoun proNoun , @NotNull adverb adverb){
+public String forthLine(verb verb, adjective adjective, noun noun,  adverb adverb){
     verb.addIng();
-    return "the events " + verb.givePhrase() + " but the game itself and the "+ adjective.givePhrase() + " " + proNoun.givePhrase() + " hosted is tournament with the " + adverb.givePhrase() + " prizepool." + "\n";
+    return "the events " + verb.givePhrase() + " but the game itself and the "+ adjective.givePhrase() + " " + noun.givePhrase() + " hosted is tournament with the " + adverb.givePhrase() + " prizepool." + "\n";
 }
 
 }
