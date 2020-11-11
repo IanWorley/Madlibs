@@ -3,7 +3,7 @@
  * A madLib app for school project
  *     Copyright (C) 2020  Ian Worley
  */
-public class main {
+public class Main {
 
     public static void main(String[] args) {
 
